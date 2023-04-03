@@ -1,12 +1,9 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Composition from "./component/2-4 Props/Composition";
-import Extaction from "./component/2-4 Props/Extraction/Extaction";
-
+import ClassComponent from "./component/2-6.LifeCycle/ClassComponent";
+import Event from "./component/2-7.Event/Event";
 function App() {
   return (
     <>
-      <Extaction />
+      <Event />
     </>
   );
 }
